@@ -7,7 +7,7 @@ However, there are some programs that I have written that are currently function
 This is the first batch of work I have done with Open CV.
 Currently these are the two files that work:
 
-detect_demo.py : this is a program that parses through every foot in
+detect_demo.py : This is a program that parses through every foot in
 the Pictures directory, recognizes where the faces are, draws
 rectangles around the faces, and writes each new image to the
 OutputPictures directory. There are some sample photos that I have ran

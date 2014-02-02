@@ -1,3 +1,8 @@
+"""
+This is a program that captures a live video feed and
+detects faces in the live video feed, and draws rectangles around them
+in real time.
+"""
 from cv2_detect import detect
 import cv2
 import cv2.cv as cv

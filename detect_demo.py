@@ -1,3 +1,11 @@
+"""
+This is a program that parses through every foot in
+the Pictures directory, recognizes where the faces are, draws
+rectangles around the faces, and writes each new image to the
+OutputPictures directory. There are some sample photos that I have ran
+in the directories provided.
+"""
+
 from cv2_detect import detect
 import cv2
 import cv2.cv as cv

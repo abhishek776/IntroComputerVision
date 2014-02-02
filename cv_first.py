@@ -1,3 +1,9 @@
+""" 
+The first program I made with openCV is a program that is
+sort of similar to Paint. You can draw rectangles with various colors based
+on the RGB trackers!
+"""
+
 import cv2
 import numpy as np
 

@@ -1,3 +1,7 @@
+"""
+The face detecting algorithm for both the detect_demo.py and video_detect.py
+"""
+
 import cv2
 import cv2.cv as cv
 
