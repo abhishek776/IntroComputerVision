@@ -10,15 +10,11 @@ def draw_rects(img, rects, color):
  
  
 def run_detection(in_fn, out_fn):
-    print ">>> Loading image..."
     img_color = cv2.imread(in_fn)
     img_gray = cv2.cvtColor(img_color, cv.CV_RGB2GRAY)
-    img_gray = cv2.equalizeHist(img_gray)
-    print in_fn, img_gray.shape
- 
-    print ">>> Detecting faces..."
+    img_gray = cv2.equalizeHist(img_gray) 
     rects = detect(img_gray)
-    print "Done"
+    print "Copied " + in_fn + " to " + out_fn 
     img_out = img_color.copy()
     draw_rects(img_out, rects, (0, 255, 0))
     cv2.imwrite(out_fn, img_out)

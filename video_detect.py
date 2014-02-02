@@ -18,7 +18,6 @@ def run_detection():
         ret, frame = cap.read()
         img_gray = cv2.cvtColor(frame,cv.CV_RGB2GRAY)
         img_gray = cv2.equalizeHist(img_gray)
-
         if(counter == 10):
             rects = detect(img_gray)
             counter = 0
